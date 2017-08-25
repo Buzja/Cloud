@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cloud</title>
+  <!-- <link rel="shortcut icon" href="images/sero2.ico" type="image/x-icon"> -->
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" media="all" href="css/styles.css">
+  <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="js/mediaelement-and-player.min.js"></script>
+  <!-- <link rel="stylesheet" href="css/main.css"> -->
+  </head>
+  <body>
+
+    <div class="audio">
+      <div class="player">
+        <h1>Travis Scott</h1>
+        <h3>Antidote</h3>
+          <br>
+        <div class="audio-player">
+          <audio id="audio-player" src="media/Yung Lean feat. A$AP Ferg - Crystal City.mp3" type="audio/mp3" controls="controls" width></audio>
+
+        </div><!-- @end .audio-player -->
+        <br>
+        <br>
+        <br>
+        <br><br><br><br>
+        <div class="audio-player">
+          <audio id="audio-player2" src="media/Yung Lean feat. A$AP Ferg - Crystal City.mp3" type="audio/mp3" controls="controls"></audio>
+
+        </div><!-- @end .audio-player -->
+        <br><br><br>
+        <div class="row">
+  <div class="col-md-3">
+    <div class="thumbnail">
+      <a href="/w3images/lights.jpg">
+        <img src="Lil-Peep-1494019341.jpg" class="img-circle" alt="Cinque Terre" >
+            <h1>Lil Peep</h1>
+        </a>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="thumbnail">
+      <a href="/w3images/lights.jpg">
+        <img src="Lil-Peep-1494019341.jpg" class="img-circle first" alt="Cinque Terre" >
+<h1>Lil Peep</h1>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="thumbnail">
+      <a href="/w3images/nature.jpg">
+      <img src="Lil-Peep-1494019341.jpg" class="img-circle sec" alt="Cinque Terre"  >
+      <h1>Lil Peep</h1>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="thumbnail">
+      <a href="/w3images/fjords.jpg">
+          <img src="Lil-Peep-1494019341.jpg" class="img-circle thrd" alt="Cinque Terre"  width="340px" height="340px">
+          <h1>Lil Peep</h1>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+      </div>
+    </div>
+    <script type="text/javascript">
+    $(function(){
+      $('#audio-player').mediaelementplayer({
+        alwaysShowControls: true,
+        features: ['playpause','progress','volume'],
+        audioVolume: 'horizontal',
+        audioWidth: 450,
+        audioHeight: 70,
+        iPadUseNativeControls: true,
+        iPhoneUseNativeControls: true,
+        AndroidUseNativeControls: true
+      });
+    });
+    $(function(){
+      $('#audio-player2').mediaelementplayer({
+        alwaysShowControls: true,
+        features: ['playpause','progress','volume'],
+        audioVolume: 'horizontal',
+        audioWidth: 450,
+        audioHeight: 70,
+        iPadUseNativeControls: true,
+        iPhoneUseNativeControls: true,
+        AndroidUseNativeControls: true
+      });
+    });
+      var CurAud = new Audio()
+      audio2.onplaying = function () {
+        if(CurAud != this){
+          CurAud.pause()
+          CurAud.currentTime = 0;
+          CurAud = audio2
+          CurAud.play()}
+      }
+      audio1.onplaying = function () {
+        if(CurAud != this){
+          CurAud.pause()
+          CurAud.currentTime = 0;
+          CurAud = audio1
+          CurAud.play()}
+      }
+    </script>
+  </body>
+</html>

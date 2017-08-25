@@ -1,0 +1,156 @@
+body, html {
+  background-color: #fbe0e0;
+  height: 100%;
+  margin: 0;
+  font-size: 36px;
+  font-weight: bold;
+  font-family:"Lao UI Regular";
+  color: #7c7c7c;
+
+}
+.navbar-inverse .navbar-brand{
+  color: #fff;
+}
+
+.navbar-brand{
+  text-align: center;
+  font-weight: bold;
+  font-family:"Lao UI Regular";
+  font-size: 40px;
+  background-color: #6cedca;
+
+}
+.navbar-inverse .navbar-nav > li > a{
+  font-size: 25px;
+  color: #fff;
+}
+/*.name{
+  padding-left: 20px;
+  padding-right: 20px;
+}*/
+.navbar-inverse .navbar-nav > li > a:hover{
+  color: #ccc;
+}
+#header{
+background: url(../images/cloudhead.png) no-repeat center top;*/
+margin-top: 10px;
+background-attachment: relative;
+background-position: center center;
+min-height: 534px;
+width: 100%;
+background-size: 100%;
+-webkit-background-size: cover;
+}
+.headtxt{
+  margin: 0;
+  text-align: center;
+  color: #fff;
+  padding-top: 200px;
+  max-width: 700px;
+  font-size: 48px;
+}
+#main{
+ background-color: #fff;
+ text-align: center;
+}
+#main h1{
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Lao UI Regular";
+}
+hr{
+  border-color: #ccc;
+}
+.img-circle{
+  width:340px;
+  height:340px;
+  border: 30px solid  #6cedca;
+}
+ .first{
+  border: 30px solid  #d3af37;
+}
+.sec{
+ border: 30px solid  #969a9d;
+}
+.thrd{
+ border: 30px solid  #bd5b38;
+}
+a {
+  text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+#main a:hover h1{
+  color: #000;
+}
+a:active{
+  text-decoration: none;
+}
+a:focus{
+  text-decoration: none;
+}
+a:focus:hover{
+  text-decoration: none;
+}
+#main a h1{
+  text-align: center;
+  font-size: 38px;
+  font-weight: bold;
+  color: #7c7c7c;
+  font-family: "Lao UI Regular";
+}
+.row-centered{
+  text-align: center;
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+.row-centered a.btn{
+  margin: 0px;
+  font-size: 45px;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background: #6cedca;
+}
+.row-centered .btn-default {
+    color: #fff;
+    border-width: 5px;
+    border-color: #6cedca;
+    border-radius: 35px;
+}
+.row-centered  a:hover {
+  color: #0e686e;
+  border-color: #6cedca;
+}
+.row-centered  a.btn-default:active {
+  color: #0e686e;
+  background: #6cedca;
+  border-color: #6cedca;
+}
+.row-centered  a.btn-default:focus {
+  color: #fff;
+  background: #6cedca;
+border-color: #6cedca;
+}
+.row-centered  a.btn-default:focus:hover {
+  color: #0e686e;
+  border-color: #6cedca;
+}
+#main .top3 h1{
+  font-weight: bold;
+    font-family:"Lao UI Regular";
+  font-size: 80px;
+  color: #ea72b9;
+}
+#footer h1{
+  font-weight: bold;
+  font-family:"Lao UI Regular";
+  font-size: 90px;
+  color: #969696;
+}
